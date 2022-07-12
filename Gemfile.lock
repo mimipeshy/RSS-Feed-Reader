@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    date (3.2.2)
+    open-uri (0.2.0)
+      stringio
+      time
+      uri
+    rexml (3.2.5)
+    rss (0.2.9)
+      rexml
+    stringio (3.0.2)
+    time (0.2.0)
+      date
+    uri (0.11.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  open-uri
+  rss
+
+BUNDLED WITH
+   2.2.25
