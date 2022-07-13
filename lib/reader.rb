@@ -26,7 +26,10 @@ class RSSReader
         RSS::Parser.parse(rss_feed)
     end
 
-    def save_feed(rss_feed)
+    def save_feed(feed)
+        feed.items.each do |i|
+            print_item (i)
+        end
     end
     
 
